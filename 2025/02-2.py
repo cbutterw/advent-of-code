@@ -1,4 +1,4 @@
-with open("20250102.in", "r") as file:
+with open("02.in", "r") as file:
   ids = file.readline().split(',')
   total = 0
   invalidIds = []

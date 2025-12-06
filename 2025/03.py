@@ -19,7 +19,7 @@ def max_joltage(lines, length):
   return total
 
 
-with open('20250103.in') as file:
+with open('03.in') as file:
   lines = [line.rstrip() for line in file]
 
 print("Part 1:", part_one(lines))
